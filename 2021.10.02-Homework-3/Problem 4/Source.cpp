@@ -2,7 +2,8 @@
 
 using namespace std;
 
-int main(int argc, char* argv[]) {
+int main(int argc, char* argv[]) 
+{
 
 	int n = 0;
 	int k = 0;
@@ -21,7 +22,7 @@ int main(int argc, char* argv[]) {
 		P *= i;
 	}
 
-	cout << A/P << endl;
+	cout << A / P << endl;
 
 	return EXIT_SUCCESS;
 }

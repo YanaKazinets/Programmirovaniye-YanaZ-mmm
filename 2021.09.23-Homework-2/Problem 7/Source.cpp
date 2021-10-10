@@ -9,7 +9,7 @@ int main(int argc, char* argv[])
 	int k = 0;
 	cin >> n >> m >> k;
 
-	if (k % n || k % m)
+	if ((k % n || k % m) && k < m*n)
 	{
 		cout << "YES" << endl;
 	}

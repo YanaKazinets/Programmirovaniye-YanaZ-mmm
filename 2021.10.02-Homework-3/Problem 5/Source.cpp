@@ -2,18 +2,19 @@
 
 using namespace std;
 
-int main(int argc, char* argv[]) {
+int main(int argc, char* argv[])
+{
 
 	int n = 0;
 	cin >> n;
 
-	for (int i = 1; i <= n/2; ++i)
+	for (int i = 1; i <= n / 2; ++i)
 	{
-		if (n%i == 0)
+		if (n % i == 0)
 		{
 			cout << i << " ";
 		}
-	 }
+	}
 
 	cout << n << endl;
 
