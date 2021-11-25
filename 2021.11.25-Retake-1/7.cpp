@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
 	int y2 = 0;
 	cin >> x1 >> y1 >> x2 >> y2;
 
-	if (((x1 - y1) % 2 == (x - y2) % 2) || ((x1 - y1) % 2 == (-1)*((x - y2) % 2)))
+	if (((x1 - y1) % 2 == (x - y2) % 2) || ((x1 - y1) % 2 == (-1)*((x2 - y2) % 2)))
 	{
 		cout << "YES";
 	}
