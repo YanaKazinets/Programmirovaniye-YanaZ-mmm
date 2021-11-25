@@ -9,7 +9,7 @@ int main(int argc, char* argv[])
 	cin >> a >> b;
 
 	int i = 0;
-	while (a*i <= a * b)
+	while (a * i <= a * b)
 	{
 		++i;
 		if ((a * i) % b == 0)
